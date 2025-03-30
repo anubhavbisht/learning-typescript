@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./index";
+import { Equal, Expect } from "../index";
 
 export function buildResponse<BASE,DATA>(base: BASE, data: DATA): BASE & DATA {
   return { ...base, ...data };

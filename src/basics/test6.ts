@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./index";
+import { Equal, Expect } from "../index";
 
 export function getByIndex<T,U>(index: number, first: T, second: U): T | U {
     return index === 0 ? first : second;

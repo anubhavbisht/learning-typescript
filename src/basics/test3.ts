@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./index";
+import { Equal, Expect } from "../index";
 
 export const orderDetails: {
     orderId: string,

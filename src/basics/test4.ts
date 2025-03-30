@@ -1,4 +1,4 @@
-import { Equal, Expect } from "./index";
+import { Equal, Expect } from "../index";
 
 export async function fetchServerVersion() {
     const response = await fetch("https://api.example.com/v");
